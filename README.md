@@ -1,3 +1,3 @@
 # guipw
 
-testing out some gui pw generating stuff
+testing out some gui password generating stuff
