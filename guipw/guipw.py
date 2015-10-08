@@ -22,13 +22,12 @@ entry_pass.grid(row=1, column=1)
 
 # create a label to display entered values for testing
 def display():
-	print 'hi'
-	label_display = Label(root, text=namevar)
-
+	label_display = Label(root, text='working', fg='blue', textvariable=namevar)
+	label_display.grid(row=3, column=1)
+	print namevar
+	
 # create a button to save
 button_submit = Button(text='Submit', command=display)
 button_submit.grid(row=3, column=0)
-label_display = Label(root, text='working', fg='blue')#, textvariable=namevar)
-label_display.grid(row=3, column=1)
 
 root.mainloop()
